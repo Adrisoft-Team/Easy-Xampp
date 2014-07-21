@@ -322,7 +322,7 @@ if($_SESSION){
 								</li>
 
 								<li class="dropdown-footer">
-									<a href="inbox.html">
+									<a href="inbox.php">
 										See all messages
 										<i class="ace-icon fa fa-arrow-right"></i>
 									</a>
@@ -350,7 +350,7 @@ if($_SESSION){
 								</li>
 
 								<li>
-									<a href="profile.html">
+									<a href="profile.php">
 										<i class="ace-icon fa fa-user"></i>
 										Profile
 									</a>
