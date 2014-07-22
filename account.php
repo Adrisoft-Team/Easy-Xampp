@@ -1,15 +1,9 @@
 <?php
 include('class/config.php');
-session_start();
-if($_SESSION){
-	if($_SESSION['username'] == $username && $_SESSION['password'] == $password){
-		
-	}else{
-		header('Location: login.php');
-	}
-}else{
-	header('Location: login.php');
-}
+include('class/verify.php');
+$verify = new VerifySession;
+$checkSession = $verify->checkSession($username,$password);
+
 ?>
 
 <!DOCTYPE html>
@@ -362,7 +356,7 @@ if($_SESSION){
 								<li class="divider"></li>
 
 								<li>
-									<a href="#">
+									<a href="logout.php">
 										<i class="ace-icon fa fa-power-off"></i>
 										Logout
 									</a>
