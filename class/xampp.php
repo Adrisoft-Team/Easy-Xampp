@@ -37,7 +37,7 @@ class XamppDomainAdder
         $current = file_get_contents($file);
         // Append a new person to the file
         $endline = "\n";
-        $current .= '' . $endline . '<VirtualHost *:80>
+        $current .= '' . $endline . '<VirtualHost '.$ServerName.':80>
         ServerAdmin webmaster@dummy-host2.example.com
         DocumentRoot "' . $DocumentRoot . '/' . $ServerName . '"
         ServerName ' . $ServerName . '

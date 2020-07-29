@@ -19,7 +19,7 @@ $checkSession = $verify->checkSession($username,$password);
 
 		<!-- bootstrap & fontawesome -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="../../../../../maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
 
 		<!-- page specific plugin styles -->
 
@@ -80,6 +80,7 @@ $checkSession = $verify->checkSession($username,$password);
 
 				<div class="navbar-buttons navbar-header pull-right" role="navigation">
 					<ul class="nav ace-nav">
+						<!--
 						<li class="grey">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-tasks"></i>
@@ -152,7 +153,9 @@ $checkSession = $verify->checkSession($username,$password);
 								</li>
 							</ul>
 						</li>
+						-->
 
+						<!--
 						<li class="purple">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-bell icon-animated-bell"></i>
@@ -216,7 +219,9 @@ $checkSession = $verify->checkSession($username,$password);
 								</li>
 							</ul>
 						</li>
+						-->
 
+						<!--
 						<li class="green">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
@@ -326,7 +331,7 @@ $checkSession = $verify->checkSession($username,$password);
 								</li>
 							</ul>
 						</li>
-
+						-->
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
@@ -377,7 +382,7 @@ $checkSession = $verify->checkSession($username,$password);
 				<script type="text/javascript">
 					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
 				</script>
-
+				<!--
 				<div class="sidebar-shortcuts" id="sidebar-shortcuts">
 					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
 						<button class="btn btn-success">
@@ -406,7 +411,8 @@ $checkSession = $verify->checkSession($username,$password);
 
 						<span class="btn btn-danger"></span>
 					</div>
-				</div><!-- /.sidebar-shortcuts -->
+				</div>
+			-->
 
 				<ul class="nav nav-list">
 					<li class="active">
@@ -582,7 +588,7 @@ $checkSession = $verify->checkSession($username,$password);
 					<div class="footer-content">
 						<span class="bigger-120">
 							<span class="blue bolder">Rex Adrivan</span>
-							Application &copy; 2013-2014
+							 &copy; 2013-2014
 						</span>
 
 						&nbsp; &nbsp;

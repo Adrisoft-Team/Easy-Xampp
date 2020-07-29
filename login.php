@@ -76,14 +76,14 @@ if($_SESSION){
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="text" id="username" class="form-control" placeholder="Username" />
+															<input type="text" id="username" class="form-control" placeholder="Username" value="root"/>
 															<i class="ace-icon fa fa-user"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input id="password" type="password" class="form-control" placeholder="Password" />
+															<input id="password" type="password" class="form-control" placeholder="Password" value="root"/>
 															<i class="ace-icon fa fa-lock"></i>
 														</span>
 													</label>

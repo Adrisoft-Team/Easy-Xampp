@@ -560,7 +560,7 @@ if($_SESSION){
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> IP </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="addHostIp" placeholder="127.0.0.1" class="col-xs-10 col-sm-5">
+											<input type="text" id="addHostIp" placeholder="127.0.0.1" class="col-xs-10 col-sm-5" value="127.0.0.1">
 										</div>
 									</div>
 
