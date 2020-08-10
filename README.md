@@ -1,7 +1,7 @@
 EasyXampp
 =========
 
-XAMPP GUI control Panel
+XAMPP GUI control Panel for Xampp
 
 Default: 
 
